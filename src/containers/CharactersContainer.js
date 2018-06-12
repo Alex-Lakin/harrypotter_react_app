@@ -35,7 +35,7 @@ class CharactersContainer extends React.Component{
           characters = {this.state.characters}
           onCharacterSelected = {this.handleCharacterSelected}
         />
-        <CharacterDetail />
+        <CharacterDetail character={this.state.currentCharacter}/>
       </div>
     );
   }
